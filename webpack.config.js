@@ -34,7 +34,7 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'production',
-            template: './index.html'    // 模板文件位置
+            template: './public/index.html'    // 模板文件位置
         }),
         // hot 检测文件改动替换plugin
         new webpack.NamedModulesPlugin(),
